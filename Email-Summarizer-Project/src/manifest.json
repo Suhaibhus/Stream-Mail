@@ -12,10 +12,14 @@
   "action": {
     "default_popup": "index.html"
   },
+
   "permissions": [
+    "http://localhost:5000/*",
     "scripting"
   ],
+
   "host_permissions": [
+    
     "http://*/*",
     "https://*/*"
   ]
