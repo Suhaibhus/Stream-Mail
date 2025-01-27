@@ -77,7 +77,7 @@ def process():
     print(f"Processing request for user: {username}")
     print(f"Categories: {categories}")
 
-    client = Groq(api_key="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")
+    client = Groq(api_key="UNKNOWN")
     
     try:
         with MailBox("imap.gmail.com").login(username, password) as mb:
